@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>33</title>
+    <script>
+        var num1 = prompt("Dime tu primer número")
+        var num2 = prompt("Dime tu primer número")
+
+        function sumar () {
+            return parseInt(num1) + parseInt(num2);
+        }
+        function resta () {
+            return parseInt(num1) - parseInt(num2);
+        }
+        function multiplicar () {
+            return parseInt(num1) * parseInt(num2);
+        }
+        function dividir () {
+            return parseInt(num1) / parseInt(num2);
+        }
+    </script>
+</head>
+<body>
+    <input type = "button" onclick="alert (sumar())" value = "Sumar">
+    <input type = "button" onclick="alert (resta())" value = "Resta">
+    <input type = "button" onclick="alert (multiplicar())" value = "Multiplicación">
+    <input type = "button" onclick="alert (dividir())" value = "División">
+</body>
+</html>
